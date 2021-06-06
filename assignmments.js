@@ -51,3 +51,10 @@ if (population > 33) {
     `${country}'s popualation is ${33 - population} million below average `
   );
 }
+//  ..................................................TYPE COERSION
+
+console.log("9" - "5"); // LOGS 4
+console.log("19" - "13" + "17"); // LOGS 617
+console.log("19" - "13" + 17); // LOGS 23
+console.log("123" < 57); // LOGS FALSE
+console.log(5 + 6 + "4" + 9 - 4 - 2); // LOGS 1143
