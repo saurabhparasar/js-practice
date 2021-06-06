@@ -2,7 +2,7 @@
 
 const country = "india";
 const continent = "asia";
-let population = 130;
+let population = 45;
 
 // ................................................................data types
 
@@ -18,7 +18,7 @@ console.log(
 );
 
 // .........................................................let, const and var
-language = "hindi";
+language = "english";
 
 // ........................................................Basic Operators
 
@@ -61,14 +61,21 @@ console.log(5 + 6 + "4" + 9 - 4 - 2); // LOGS 1143
 
 // ...................................................................Equality Operators
 
-let numNeighbours = Number(
-  prompt("How many neighbour countries does your country have?")
-);
+// let numNeighbours = Number(
+//   prompt("How many neighbour countries does your country have?")
+// );
 
-if (numNeighbours === 1) {
-  console.log("only one border");
-} else if (numNeighbours > 1) {
-  console.log("more than one border");
+// if (numNeighbours === 1) {
+//   console.log("only one border");
+// } else if (numNeighbours > 1) {
+//   console.log("more than one border");
+// } else {
+//   console.log("no border");
+// }
+
+// ...........................logical operator
+if (population < 50 && language === "english" && !isIsland) {
+  console.log(`you should live in ${country}`);
 } else {
-  console.log("no border");
+  console.log(`${country} does not meet your criteria`);
 }
